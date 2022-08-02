@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------navbar-------------------------- */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  /* border: 2px solid red; */
+}
+
+.logo {
+  margin-left: 100px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.grow-list {
+  margin-right: 270px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list li {
+  padding: 0 15px;
+  font-family: poppins, sans-serif;
+  color: #b1aaaa;
+  cursor: pointer;
+}
+
+ul li:first-child {
+  color: #000000;
+  font-weight: 500;
+}
+
+.nav-button {
+  margin-right: 100px;
+  font-family: poppins, sans-serif;
+  padding: 10px 20px;
+  background-color: #5955b3;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* -----------------------------------------------Banner----------------------------------------------- */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80vh;
+  /* border: 2px solid blue; */
+}
+
+div img {
+  width: 600px;
+}
+.heading-text {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 50%;
+  font-family: poppins, sans-serif;
+  color: #3c2f60;
+  line-height: 60px;
+}
+
+span {
+  color: #5955b3;
+}
+
+.description {
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 40%;
+  color: #7c7979;
+}
+
+.btn {
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 15px 35px;
+  cursor: pointer;
+}
