@@ -8,7 +8,7 @@
 
 ## 📌 Screenshot:
 
-![project1](./assets/project4.png)
+![project1](./assets/Project-4.png)
 
 <br>
 
